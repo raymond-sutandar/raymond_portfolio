@@ -4,7 +4,7 @@ import { socialLinks } from "./config";
 export default function Page() {
   return (
     <section>
-      <a href={socialLinks.twitter} target="_blank">
+      <a href={socialLinks.linkedin} target="_blank">
         <Image
           src="/profile.png"
           alt="Profile photo"
@@ -16,51 +16,39 @@ export default function Page() {
         />
       </a>
 
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Portfolio, made simple!
+      <h1 className="mb-6 text-2xl font-medium tracking-tight">
+        About Me
       </h1>
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS for optimal performance.
+          Hello! My name is Raymond Sutandar. I'm a dedicated, innovative software developer
+		  with extensive experience in automation.
         </p>
         <p>
-          Nextfolio includes all the essentials for a stunning portfolio: SEO,
-          MDX support, RSS, Atom, & JSON feeds, analytics, tweet & YouTube
-          embeds, KaTeX integration, and{" "}
-          <a
-            target="_blank"
-            href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features"
-          >
-            more
-          </a>
-          .
+          I'm currently studying full-stack development
+		  to build beautiful, useable, and practical websites, including this
+		  portfolio here.
         </p>
         <p>
-          Nextfolio is{" "}
-          <a href={socialLinks.github} target="_blank">
-            open-source
-          </a>{" "}
-          and fully customizable, making it easy to add more features.
+          I have a particular focus on organization and communication -
+		  I believe that bringing people together and laying out information well
+		  is essential to good work.
         </p>
         <p>
-          <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
-            target="_blank"
-          >
-            Deploy
-          </a>{" "}
-          your Nextfolio site with Vercel in minutes and follow the set up
-          instructions in the{" "}
-          <a href="/blog/getting-started">Getting Started</a> post.
+          I tend to enjoy empirical work and working with databases. Rapid testing
+		  and well-managed info are essential to my projects.
         </p>
+		<p>
+		  Outside of tech, I enjoy video games, badminton, economics, and
+		  matters of religion. A strange mix to be sure, but that's me!
+		</p>
         <p>
-          Built and maintained by{" "}
+          This website was originally built using Nextfolio by{" "}
           <a href="https://imsirius.xyz/" target="_blank">
             Sirius
           </a>
-          .
+          , but is currently maintained by me, Raymond.
         </p>
       </div>
     </section>
