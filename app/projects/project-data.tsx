@@ -7,24 +7,17 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Project One",
-    year: 2023,
+    title: "Homemade Catering",
+    year: 2024,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
+      "An online marketplace for homemade foods. Buy homemade meals anywhere, and find buyers for your homemade food here. Made with Tradly, a free website builder.",
+    url: "https://homemadecatering.tradly.co/",
   },
   {
-    title: "Project Two",
-    year: 2022,
+    title: "Reversi",
+    year: 2019,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
-  },
-  {
-    title: "Project Three",
-    year: 2021,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
+      "A classic Japanese board game with the unique twist of some tiles being blocked. Is written in Java and uses design patterns such as Singleton and Observer and Observable. Inspired by a minigame in the videogame Maplestory.",
+    url: "https://github.com/raymond-sutandar/Reversi-Project",
   },
 ];

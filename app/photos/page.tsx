@@ -16,33 +16,33 @@ export default function Photos() {
         images={[
           {
             src: "/photos/photo1.jpg",
-            alt: "Roman columns",
-            href: "https://unsplash.com/photos/people-walking-near-building-during-daytime-dFLBDQQeffU?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
+            alt: "Pagoda in Indonesia",
+            href: "https://photos.google.com/photo/AF1QipOwlEX7ulKlD32mr1fZZVe0CCvAbmiQhajYTz-m",
           },
           {
             src: "/photos/photo2.jpg",
-            alt: "Big Ben",
-            href: "https://unsplash.com/photos/big-ben-london-MdJq0zFUwrw?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
+            alt: "Our Lady of Akita in Indonesia",
+            href: "https://photos.google.com/photo/AF1QipPqoIh1KGh2BJeOeLx5ZmyXvJ4Pjn2oEddH0uO7",
           },
           {
             src: "/photos/photo3.jpg",
-            alt: "Sacré-Cœur Basilica",
-            href: "https://unsplash.com/photos/a-view-of-the-inside-of-a-building-through-a-circular-window-Tp-3hrx88J4",
+            alt: "Indonesia Kelapa Gading Skyline",
+            href: "https://photos.google.com/photo/AF1QipM0XLPt06VSZmG0z54c7Z-vsCZDzUai4gMMYTVh",
           },
           {
             src: "/photos/photo4.jpg",
-            alt: "Eiffel Tower",
-            href: "https://unsplash.com/photos/the-eiffel-tower-towering-over-the-city-of-paris-OgPuPvPsHLM?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
+            alt: "Hong Kong Airport",
+            href: "https://photos.google.com/photo/AF1QipPxRswWxncHAet48elrPuIctIWm2ZqV_voziQzh",
           },
           {
             src: "/photos/photo5.jpg",
-            alt: "Taj Mahal",
-            href: "https://unsplash.com/photos/taj-mahal-india-IPlPkWPJ2fo",
+            alt: "Country Club Park",
+            href: "https://photos.google.com/photo/AF1QipOzTWjgZSQwsuMswrbSi9LGZtrsrVSwHBFmCvKd",
           },
           {
             src: "/photos/photo6.jpg",
-            alt: "Colosseum",
-            href: "https://unsplash.com/photos/brown-concrete-building-under-blue-sky-during-daytime-3cyBR1rIJmA?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
+            alt: "Dipsy Profile Picture",
+            href: "https://photos.google.com/photo/AF1QipP8MopNf1Z0yp8VfE2wzwpUcDfi2WoUqlK3ByTO",
           },
         ]}
       />
@@ -50,24 +50,14 @@ export default function Photos() {
       <ImageGrid
         columns={2}
         images={[
-          { src: "/photos/photo1.jpg", alt: "Roman columns" },
-          { src: "/photos/photo2.jpg", alt: "Big Ben" },
-          { src: "/photos/photo3.jpg", alt: "Sacré-Cœur Basilica" },
-          { src: "/photos/photo4.jpg", alt: "Eiffel Tower" },
+          { src: "/photos/photo1.jpg", alt: "Pagoda in Indonesia" },
+          { src: "/photos/photo2.jpg", alt: "Our Lady of Akita in Indonesia" },
+          { src: "/photos/photo3.jpg", alt: "Indonesia Kelapa Gading Skyline" },
+          { src: "/photos/photo4.jpg", alt: "Hong Kong Airport" },
         ]}
       />
 
-      <ImageGrid
-        columns={4}
-        images={[
-          { src: "/photos/photo1.jpg", alt: "Roman columns" },
-          { src: "/photos/photo2.jpg", alt: "Big Ben" },
-          { src: "/photos/photo3.jpg", alt: "Sacré-Cœur Basilica" },
-          { src: "/photos/photo4.jpg", alt: "Eiffel Tower" },
-          { src: "/photos/photo5.jpg", alt: "Taj Mahal" },
-          { src: "/photos/photo6.jpg", alt: "Colosseum" },
-        ]}
-      />
+      
     </section>
   );
 }
