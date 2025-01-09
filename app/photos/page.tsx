@@ -41,8 +41,8 @@ export default function Photos() {
           },
           {
             src: "/photos/photo6.jpg",
-            alt: "Dipsy Profile Picture",
-            href: "https://photos.google.com/photo/AF1QipP8MopNf1Z0yp8VfE2wzwpUcDfi2WoUqlK3ByTO",
+            alt: "Niagara Falls",
+            href: "https://photos.google.com/photo/AF1QipNHNsiVI0360e6njgmMYLqEKuxf_7Gq6xMgPga9",
           },
         ]}
       />
@@ -50,10 +50,10 @@ export default function Photos() {
       <ImageGrid
         columns={2}
         images={[
-          { src: "/photos/photo1.jpg", alt: "Pagoda in Indonesia" },
-          { src: "/photos/photo2.jpg", alt: "Our Lady of Akita in Indonesia" },
-          { src: "/photos/photo3.jpg", alt: "Indonesia Kelapa Gading Skyline" },
-          { src: "/photos/photo4.jpg", alt: "Hong Kong Airport" },
+          { src: "/photos/photo7.jpg", alt: "UTM IB Building" },
+          { src: "/photos/photo8.jpg", alt: "MOI Apartment Ground Floor Pool" },
+          { src: "/photos/photo9.jpg", alt: "UKI Park 2018" },
+          { src: "/photos/photo10.jpg", alt: "UKI Monastery 2018" },
         ]}
       />
 
